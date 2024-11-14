@@ -1,5 +1,5 @@
 # 使用
+`npm i @zhouronghao/zz-cli
 `
-npm i @zhouronghao/zz-cli
-`
+
 `zz create <project>`
