@@ -1,0 +1,36 @@
+{
+  "name": "@zhouronghao/zz-cli",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "zz": "bin/lib.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [],
+  "author": {
+    "name": "kk",
+    "email": "11076632@qq.com"
+  },
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@esbuild-kit/cjs-loader": "github:esbuild-kit/cjs-loader",
+    "@inquirer/prompts": "^7.0.1",
+    "axios": "^1.7.7",
+    "chalk": "^4.0.0",
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.8.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.0.1",
+    "inquirer-toggle": "^1.0.1",
+    "ora": "^8.1.1"
+  }
+}
